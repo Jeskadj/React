@@ -2,7 +2,7 @@
 function MyFirstComponent() {
 
     return(
-        <h1>jess</h1>
+        <h1>MyFirstComponent</h1>
     );
 }
 
