@@ -11,7 +11,7 @@ function Counter() {
     const[color3,setColor3]=useState("blue")
     
     function  sum() {
-        setCount(count+3)
+        setCount(count+4)
         
     }
 
