@@ -1,0 +1,30 @@
+
+.loginbutton:active{
+    color: blueviolet;
+    background-color: cyan;
+}
+/* .loginbutton:focus{
+    color: darkblue;
+    background-color: darksalmon;
+} */
+/* .loginbutton:hover{
+    color: deeppink;
+    background-color: gold;
+} */
+
+/* @media screen and (max-width:570px){
+    .
+
+
+} */
+
+.imagediv{
+    display: flex;
+    flex:0.5;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+.linkdiv{
+    margin-top: 10px;
+}

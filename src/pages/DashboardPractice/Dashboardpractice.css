@@ -1,0 +1,87 @@
+*{
+    
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.maincontainer{
+    display: flex;
+    background-color: red;
+    height: 100vh;
+}
+
+.left{
+    display: flex;
+    flex: 0.3;
+    background-color: white;
+    flex-direction: column;
+}
+
+.right{
+    display: flex;
+    background-color: greenyellow;
+    flex: 0.7;
+    flex-direction: column;
+}
+.righttop{
+    display: flex;
+    background-color: aqua;
+    flex: 0.1;
+}
+
+.rightbottom{
+    display: flex;
+    background-color: brown;
+    flex: 0.9;
+    flex-direction: column;
+}
+.cardtoprow{
+    display: flex;
+    background-color: orange;
+    flex: 0.5;
+    align-items: center;
+    justify-content: space-around;
+}
+.cardbottomrow{
+    display: flex;
+    background-color: pink;
+    flex: 0.5;
+}
+.card{
+    display: flex;
+    width: 75px;
+    height: 75px;
+    background-color: white;
+    box-shadow: 2px -2px 5px 5px gray ;
+    border-radius: 5px;
+}
+.cardbottomrow{
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.branddiv{
+    display: flex;
+    background-color: fuchsia;
+    flex: 0.1;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.menudiv{
+    display: flex;
+    background-color: rgb(0, 81, 255);
+    flex: 0.8;
+}
+
+.signoutdiv{
+    display: flex;
+    background-color: rgb(255, 230, 0);
+    flex: 0.1;
+}
+
+.brandname{
+    font: size 16px;
+    font-weight: 30px;
+}
